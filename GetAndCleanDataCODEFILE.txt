@@ -1,0 +1,18 @@
+==================================================================
+Get and Clean Data CODE FILE
+==================================================================
+A Steenekamp
+==================================================================
+
+The script contains the following variables:
+============================================
+- 'rootpath'- path to the test and training datasets
+- 'testdf' - dataframe with test data combining subject and activity
+- 'traindf' - dataframe with training data combining subject and activity
+- 'ftable' - final tidy data set with summarised data dplyr group_by and summarise_each functions
+- 'features' - features file
+- 'rawcolumns' - selected -means and - std measurements
+- 'rawx' - test/training table
+- 'subjecttest/train' - subjects
+- 'activitytest/train' - activities
+- 'subandactivity' - combined subjects and activities (translated to meaningful names)
